@@ -1227,7 +1227,7 @@ For more information , please visit : http://www.florian-diesch.de/software/clas
 							elif option2 == "11":
 								cmd = os.system("apt-get install YARA")
 							elif option2 == "12":
-								cmd = os.system("cd ~/Download && curl 'https://github.com/NationalSecurityAgency/ghidra/releases/download/Ghidra_10.4_build/ghidra_10.4_PUBLIC_20230928.zip'")
+								cmd = os.system("cd ~/Downloads && curl -O -L https://github.com/NationalSecurityAgency/ghidra/releases/download/Ghidra_10.4_build/ghidra_10.4_PUBLIC_20230928.zip")
 							elif option2 == "back":
 								debut()
 							elif option2 == "gohome":
