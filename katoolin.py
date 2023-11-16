@@ -1193,6 +1193,7 @@ For more information , please visit : http://www.florian-diesch.de/software/clas
  9) smali
 10) Valgrind
 11) YARA
+12) Ghidra
 
 0) Install all Reverse Engineering tools
 				 
@@ -1223,6 +1224,8 @@ For more information , please visit : http://www.florian-diesch.de/software/clas
 								cmd = os.system("apt-get install Valgrind")
 							elif opcion2 == "11":
 								cmd = os.system("apt-get install YARA")
+							elif opcion2 == "12":
+								cmd = os.system("cd ~/Download && curl 'https://github.com/NationalSecurityAgency/ghidra/releases/download/Ghidra_10.4_build/ghidra_10.4_PUBLIC_20230928.zip'")
 							elif opcion2 == "back":
 								inicio()
 							elif opcion2 == "gohome":
